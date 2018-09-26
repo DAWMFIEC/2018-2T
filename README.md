@@ -11,6 +11,8 @@
 
 ## Indicaciones generales
 
+La guía general con los contenidos de la materia puedes encontrarla en la carpeta [Diapositivas](Diapositivas).
+
 Existen algunos sitios especializados, como [Mozilla Developer Network](https://developer.mozilla.org/es/) y [Google Developers](https://developers.google.com/web/?hl=es) dado que tienen valiosas publicaciones de primera categoría relacionadas con el desarrollo de aplicaciones web. 
 
 Por otro lado, y como parte de los requerimientos de la materia, deberás manejar tus prácticas en un repositorio remoto para control de versiones, algunos que podrías considerar: [GitHub](https://github.com/), [BitBucket](https://bitbucket.org/product) y [GitLab](https://about.gitlab.com/).
