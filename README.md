@@ -11,6 +11,8 @@
 
 ## Indicaciones generales
 
+A continuación, algunos sitios con publicaciones interesantes relacionadas con el desarrollo de aplicaciones web: [Mozilla Developer Network](https://developer.mozilla.org/es/) y [Google Developers](https://developers.google.com/web/?hl=es)
+
 Entre los repositorios remotos para control de versiones, están a disposición: [GitHub](https://github.com/), [BitBucket](https://bitbucket.org/product) y [GitLab](https://about.gitlab.com/).
 
 Puedes escoger entre muchas herramientas de edición de páginas web: [Sublime Text 3](https://www.sublimetext.com/3), [Notepad++](https://notepad-plus-plus.org/download/v7.5.8.html), incluso un editor más potente como el [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=DX_841432).
