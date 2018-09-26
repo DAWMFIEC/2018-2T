@@ -1,4 +1,4 @@
-# [Prácticas de Desarrollo de Aplicaciones Web 2018 - II T](https://dawfiec.github.io/2018-2T/)
+# [Desarrollo de Aplicaciones Web 2018 - IIT](https://dawfiec.github.io/2018-2T/)
 ## Unidades
 ###### 1. Introducción
 ###### 2. Estructura de un documento web
