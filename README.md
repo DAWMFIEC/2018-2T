@@ -11,13 +11,13 @@
 
 ## Indicaciones generales
 
-A continuación, algunos sitios con publicaciones interesantes relacionadas con el desarrollo de aplicaciones web: [Mozilla Developer Network](https://developer.mozilla.org/es/) y [Google Developers](https://developers.google.com/web/?hl=es)
+Existen algunos sitios especializados, como [Mozilla Developer Network](https://developer.mozilla.org/es/) y [Google Developers](https://developers.google.com/web/?hl=es) dado que tienen valiosas publicaciones de primera categoría relacionadas con el desarrollo de aplicaciones web. 
 
-Entre los repositorios remotos para control de versiones, están a disposición: [GitHub](https://github.com/), [BitBucket](https://bitbucket.org/product) y [GitLab](https://about.gitlab.com/).
+Por otro lado, y como parte de los requerimientos de la materia, deberás manejar tus prácticas en un repositorio remoto para control de versiones, algunos que podrías considerar: [GitHub](https://github.com/), [BitBucket](https://bitbucket.org/product) y [GitLab](https://about.gitlab.com/).
 
-Puedes escoger entre muchas herramientas de edición de páginas web: [Sublime Text 3](https://www.sublimetext.com/3), [Notepad++](https://notepad-plus-plus.org/download/v7.5.8.html), incluso un editor más potente como el [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=DX_841432).
+En relación a las herramientas de edición, podrías considerar: [Sublime Text 3](https://www.sublimetext.com/3), [Notepad++](https://notepad-plus-plus.org/download/v7.5.8.html), incluso un editor más potente como el [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=DX_841432).
 
-Por otro lado, para la creación de Mockups tienes algunas herramientas en línea o que puedes descargar en tu computador: [Balsamiq](https://balsamiq.com/), [Mockplus](https://www.mockplus.com/?r=trista), [Wireframe](https://wireframe.cc/), [Moqups](https://moqups.com/), [Fluid](https://www.fluidui.com/), [SmartMockups](https://smartmockups.com/) y [otros](https://www.mockplus.com/blog/post/website-mockup) que puedes encontrar en línea.
+El proceso de diseño y maquetación conlleva la creación de mockups, entre las herramientas que podrías considerar para esto, tenemos: [Balsamiq](https://balsamiq.com/), [Mockplus](https://www.mockplus.com/?r=trista), [Wireframe](https://wireframe.cc/), [Moqups](https://moqups.com/), [Fluid](https://www.fluidui.com/), [SmartMockups](https://smartmockups.com/) y [otros](https://www.mockplus.com/blog/post/website-mockup) que puedes encontrar en línea.
 
 ## Formato básico para la sintaxis de un README en github
 
