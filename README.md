@@ -19,7 +19,7 @@ Por otro lado, y como parte de los requerimientos de la materia, deberás maneja
 
 En relación a las herramientas de edición, podrías considerar: [Sublime Text 3](https://www.sublimetext.com/3), [Notepad++](https://notepad-plus-plus.org/download/v7.5.8.html), incluso un editor más potente como el [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=DX_841432).
 
-El proceso de diseño y maquetación conlleva la creación de mockups, entre las herramientas que podrías considerar para esto, tenemos: [Balsamiq](https://balsamiq.com/), [Mockplus](https://www.mockplus.com/?r=trista), [Wireframe](https://wireframe.cc/), [Moqups](https://moqups.com/), [Fluid](https://www.fluidui.com/), [SmartMockups](https://smartmockups.com/) y [otros](https://www.mockplus.com/blog/post/website-mockup) que puedes encontrar en línea.
+El proceso de diseño y maquetación conlleva la creación de mockups, entre las herramientas que podrías considerar para esto, tenemos: [Balsamiq](https://balsamiq.com/), [OneNote](https://support.office.com/en-us/article/use-wireframe-templates-to-design-websites-and-mobile-apps-2d54dc55-f5c4-49a2-85da-d649eb7fc281), [Mockplus](https://www.mockplus.com/?r=trista), [Wireframe](https://wireframe.cc/), [Moqups](https://moqups.com/), [Fluid](https://www.fluidui.com/), [SmartMockups](https://smartmockups.com/) y [otros](https://www.mockplus.com/blog/post/website-mockup) que puedes encontrar en línea.
 
 ## Formato básico para la sintaxis de un README en github
 
