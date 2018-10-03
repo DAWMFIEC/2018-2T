@@ -26,7 +26,9 @@ Mientras diseñas tu sitio web, puedes utilizar los inspectores de [Mozilla](htt
 ## Recursos para tus sitios web
 
 - Íconos
-  - 'Black White Social Media' by youtube.com/AlfredoCreates. (2018). Iconfinder. Retrieved 3 October 2018, from [https://www.iconfinder.com/iconsets/black-white-social-media](https://www.iconfinder.com/iconsets/black-white-social-media)
+  - 'Black White Social Media' by youtube.com/AlfredoCreates. (2018). Iconfinder. Retrieved 3 October 2018, from https://www.iconfinder.com/iconsets/black-white-social-media
+- Fuentes
+  - 20 Best Google Web Fonts. (2018). Awwwards.com. Retrieved 3 October 2018, from https://www.awwwards.com/20-best-web-fonts-from-google-web-fonts-and-font-face.html
 
 ## Formato básico para la sintaxis de un README en github
 
