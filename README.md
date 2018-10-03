@@ -23,6 +23,11 @@ El proceso de diseño y maquetación conlleva la creación de mockups, entre las
 
 Mientras diseñas tu sitio web, puedes utilizar los inspectores de [Mozilla](https://developer.mozilla.org/es/docs/Tools/Page_Inspector) o [Chrome](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2018Q2) para verificar la estructura semántica de las páginas.
 
+## Recursos para tus sitios web
+
+- Íconos
+  - ['Black White Social Media' by youtube.com/AlfredoCreates]. (2018). Iconfinder. Retrieved 3 October 2018, from (https://www.iconfinder.com/iconsets/black-white-social-media)
+
 ## Formato básico para la sintaxis de un README en github
 
 Basic writing and formatting syntax - User Documentation. (2018). 
