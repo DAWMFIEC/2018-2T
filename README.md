@@ -13,7 +13,7 @@
 
 La guía general con los contenidos de la materia puedes encontrarla en la carpeta [Diapositivas](Diapositivas).
 
-Existen algunos sitios especializados, como [Mozilla Developer Network](https://developer.mozilla.org/es/) y [Google Developers](https://developers.google.com/web/?hl=es) dado que tienen valiosas publicaciones de primera categoría relacionadas con el desarrollo de aplicaciones web. 
+Existen algunos sitios especializados, como [A List Apart](https://alistapart.com/) [Mozilla Developer Network](https://developer.mozilla.org/es/) y [Google Developers](https://developers.google.com/web/?hl=es) dado que tienen valiosas publicaciones de primera categoría relacionadas con el desarrollo de aplicaciones web. 
 
 Para el control de versiones de las prácticas y los proyectos deberás utilizar un repositorio remoto para control de versiones, algunos sistemas de administración de repositorios remotos que podrías considerar: [GitHub](https://github.com/), [BitBucket](https://bitbucket.org/product) y [GitLab](https://about.gitlab.com/).
 
