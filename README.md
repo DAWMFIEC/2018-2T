@@ -21,7 +21,7 @@ En relación a las herramientas de edición, podrías considerar: [Sublime Text 
 
 El proceso de diseño y maquetación conlleva la creación de mockups, entre las herramientas que podrías considerar para esto, tenemos: [Balsamiq](https://balsamiq.com/), [OneNote](https://support.office.com/en-us/article/use-wireframe-templates-to-design-websites-and-mobile-apps-2d54dc55-f5c4-49a2-85da-d649eb7fc281), [Mockplus](https://www.mockplus.com/?r=trista), [Wireframe](https://wireframe.cc/), [Moqups](https://moqups.com/), [Fluid](https://www.fluidui.com/), [SmartMockups](https://smartmockups.com/) y [otros](https://www.mockplus.com/blog/post/website-mockup) que puedes encontrar en línea.
 
-Mientras diseñas tu sitio web, puedes utilizar los inspectores de [Mozilla](https://developer.mozilla.org/es/docs/Tools/Page_Inspector) o [Chrome](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2018Q2) para verificar la estructura semántica de las páginas. Y algunos cheatsheets de HTML/CSS/GIT, [Google Web Fonts](https://devhints.io/google-webfonts) y   [Bootstrap](https://hackerthemes.com/bootstrap-cheatsheet/)
+Mientras diseñas tu sitio web, puedes utilizar los inspectores de [Mozilla](https://developer.mozilla.org/es/docs/Tools/Page_Inspector) o [Chrome](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2018Q2) para verificar la estructura semántica de las páginas. Y algunos cheatsheets de HTML/CSS/GIT en la carpeta [Recursos](Recursos), [Google Web Fonts](https://devhints.io/google-webfonts) y [Bootstrap](https://hackerthemes.com/bootstrap-cheatsheet/)
 
 ## Recursos para tus sitios web
 
