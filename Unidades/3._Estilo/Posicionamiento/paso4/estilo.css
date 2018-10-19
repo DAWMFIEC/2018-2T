@@ -1,0 +1,13 @@
+aside#recientes
+{
+    width: 150px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+section#principal
+{
+	width: 500px;
+    border: 1px solid blue;
+    display: inline-block;
+}
