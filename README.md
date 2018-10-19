@@ -2,7 +2,7 @@
 ## Unidades
 ###### 1. Introducción
 ###### 2. Estructura de un documento web
-###### [3. Estilo de un documento web](3._Estilo/)
+###### [3. Estilo de un documento web](Unidades/3._Estilo/)
 ###### 4. Diseño web adaptable
 ###### 5. Programación web en el cliente
 ###### 6. Programación web en el servidor
