@@ -1,0 +1,15 @@
+aside#recientes
+{
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+}
+
+section#principal
+{
+	width: 1000px;
+    border: 1px solid blue;
+    display: inline-block;
+    vertical-align: top;
+}

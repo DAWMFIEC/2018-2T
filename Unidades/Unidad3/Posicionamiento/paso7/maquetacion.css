@@ -1,0 +1,33 @@
+aside#recientes
+{
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+}
+
+section#principal
+{
+	width: 1000px;
+    border: 1px solid blue;
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: -2px;
+    z-index: 999;
+    width: 1263px;
+    border: 1px solid;
+    background-color: white;
+}
+
+nav {
+    position: sticky;
+    top: 0px;    
+    width: 1231px;
+    border: 1px solid;
+    background-color: white;
+}
