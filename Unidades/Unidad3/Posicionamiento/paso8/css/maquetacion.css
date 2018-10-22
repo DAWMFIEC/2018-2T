@@ -21,7 +21,7 @@ footer {
     left: -2px;
     z-index: 999;
 
-    width: 100%;
+    width: 1261px;
     border: 1px solid;
     background-color: white;
 }
@@ -30,7 +30,7 @@ nav {
     position: sticky;
     top: 0px;
     
-    width: 100%;
+    width: 1231px;
     border: 1px solid;
     background-color: white;
 }
