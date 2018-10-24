@@ -4,6 +4,13 @@
 ###### 2. Estructura de un documento web
 ###### [3. Estilo de un documento web](Unidades/Unidad3/)
 ###### 4. Diseño web adaptable
+
+Estrategia
+
+1. Conoce las resoluciones más utilizadas con [Screen Siz.es](http://screensiz.es/) o [My Device](https://www.mydevice.io/).
+2. Identifica tu público objetivo a través de las estadísticas actuales con [Google Analytics](https://marketingplatform.google.com/about/analytics/) o de [W3CSchools](https://www.w3schools.com/browsers/browsers_display.asp)
+3. Elige una estrategia: Progressive enhacement (Mobile first) o Graceful degradation (Desktop first)
+
 ###### 5. Programación web en el cliente
 ###### 6. Programación web en el servidor
 ###### 7. Servicios web
