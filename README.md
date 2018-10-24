@@ -8,7 +8,7 @@
 Estrategia
 
 1. Conoce las resoluciones más utilizadas con [Screen Siz.es](http://screensiz.es/) o [My Device](https://www.mydevice.io/).
-2. Identifica tu público objetivo 
+2. Identifica tu público objetivo a través de las estadísticas actuales con [Google Analytics](https://marketingplatform.google.com/about/analytics/) o de [W3CSchools](https://www.w3schools.com/browsers/browsers_display.asp)
 3. Elige una estrategia: Progressive enhacement o Graceful degradation  
 
 ###### 5. Programación web en el cliente
