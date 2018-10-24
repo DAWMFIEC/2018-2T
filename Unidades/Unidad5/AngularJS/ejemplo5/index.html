@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<script src="js/app.js"></script>
+	<body>
+		<h1>AngularJS</h1>
+		<h2>Ejemplo 5</h2>
+		<div ng-app="myApp" ng-controller="customersCtrl">
+			<table>
+				<tr ng-repeat="x in names">
+					<td>{{ x.Name }}</td>
+					<td>{{ x.Country }}</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

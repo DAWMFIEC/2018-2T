@@ -1,0 +1,4 @@
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+Se verifica con la fuente que se ajusta al tamaño del viewport
+
+<link rel="stylesheet" type="text/css" href="../css/estilo.css">

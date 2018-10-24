@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<script src="js/app.js"></script>
+	<body>
+		<h1>AngularJS</h1>
+		<h2>Ejemplo 3</h2>
+		<div ng-app="myApp" ng-controller="myCtrl">
+			<input ng-model="name">
+			<h1>Mi nombre es {{name}}</h1>
+		</div>
+		<p>Cuando cambias el nombre en el input, el cambio afecta el modelo y afecta la propiedad "nombre" en el controlador.</p>
+	</body>
+</html>
