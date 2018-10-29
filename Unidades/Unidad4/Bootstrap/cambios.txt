@@ -7,11 +7,16 @@ https://www.w3schools.com/bootstrap4/default.asp
 paso 1:
 agregar css y js al index
 div.container
-  rows
-mobile-first: ocultar barra superior
+  rows y cols
+
 
 paso 2:
-menu responsive
+list-inline > list-inline-item
+mobile-first: ocultar barra superior
 
 paso 3:
-titulo alineado
+menu responsive
+form-inline justify-content-end
+
+paso 4:
+text-center

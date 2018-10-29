@@ -10,13 +10,13 @@
     <body>
         <div class="container">
             <div class="row">
-                <section id="top" class="col-xl-12">
+                <section id="top" class="col-xl-12 d-none d-md-block">
                     <div class="row">
                         <time datetime="2018-09-13" class="col-xl-4">Septiembre 13, 2018</time>
-                        <ul class="col-xl-4">
-                            <li>Facebook</li>
-                            <li>Twitter</li>
-                            <li>Instagram</li>
+                        <ul class="col-xl-4 list-inline">
+                            <li class="list-inline-item">Facebook</li>
+                            <li class="list-inline-item">Twitter</li>
+                            <li class="list-inline-item">Instagram</li>
                         </ul>
                         <form class="col-xl-4">
                             <input type="text" placeholder="Buscar.." name="busar">
@@ -27,12 +27,12 @@
             </div>
             <div class="row">
                 <nav class="col-xl-12">
-                    <ul>
-                        <li>Noticias</li>
-                        <li>Deportes</li>
-                        <li>Espectáculos</li>
-                        <li>Videos</li>
-                        <li>Internacionales</li>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">Noticias</li>
+                        <li class="list-inline-item">Deportes</li>
+                        <li class="list-inline-item">Espectáculos</li>
+                        <li class="list-inline-item">Videos</li>
+                        <li class="list-inline-item">Internacionales</li>
                     </ul>
                 </nav>
             </div>
@@ -47,7 +47,7 @@
                         <h4>Noticias Recientes</h4>
                     </header>
                     <div class="row">
-                        <article class="col-xl-12">
+                        <article class="col-xl-12 col-3">
                             <div class="row">
                                 <header class="col-xl-5">
                                     <h6>Lorem ipsum dolor sit amet</h6>
@@ -56,7 +56,7 @@
                                 <time class="col-xl-12" datetime="2018-09-13">Sept 13, 2018</time>
                             </div>
                         </article>
-                        <article class="col-xl-12">
+                        <article class="col-xl-12 col-3">
                             <div class="row">
                                 <header class="col-xl-5">
                                     <h6>Lorem ipsum dolor sit amet</h6>
@@ -65,7 +65,7 @@
                                 <time class="col-xl-12" datetime="2018-09-13">Sept 13, 2018</time>
                             </div>
                         </article>
-                        <article class="col-xl-12">
+                        <article class="col-xl-12 col-3">
                             <div class="row">
                                 <header class="col-xl-5">
                                     <h6>Lorem ipsum dolor sit amet</h6>
@@ -74,7 +74,7 @@
                                 <time class="col-xl-12" datetime="2018-09-13">Sept 13, 2018</time>
                             </div>
                         </article>
-                        <article class="col-xl-12">
+                        <article class="col-xl-12 col-3">
                             <div class="row">
                                 <header class="col-xl-5">
                                     <h6>Lorem ipsum dolor sit amet</h6>
@@ -83,7 +83,7 @@
                                 <time class="col-xl-12" datetime="2018-09-13">Sept 13, 2018</time>
                             </div>
                         </article>
-                        <article class="col-xl-12">
+                        <article class="col-xl-12 d-none d-md-block">
                             <div class="row">
                                 <header class="col-xl-5">
                                     <h6>Lorem ipsum dolor sit amet</h6>
@@ -94,10 +94,10 @@
                         </article>
                     </div>
                 </aside>
-                <section id="principal" class="col-xl-10">
+                <section id="principal" class="col-xl-10 col-12">
                     <div id="noticia1">
                         <article>
-                            <img src="https://via.placeholder.com/1000x380" alt="placeholder"/>
+                            <img src="https://via.placeholder.com/1000x380" alt="placeholder" class="img-fluid"/>
                             <div id="texto1">
                                 <header>
                                     <h3>Lorem ipsum dolor sit amet</h3>
@@ -106,11 +106,11 @@
                                     Lorem ipsum et non aliqua quis ut ea in irure esse ex do nostrud irure sint elit dolore duis nostrud dolor sed magna dolor consequat ut occaecat elit dolor enim voluptate proident tempor est exercitation nulla consequat dolore proident in eiusmod aute aliquip qui incididunt tempor commodo ullamco et laboris magna in quis velit irure ut sit deserunt non nostrud laborum cillum in ut anim ad amet incididunt minim ullamco amet enim dolor tempor aute in do proident esse sunt voluptate nulla in ut eiusmod eu minim sunt consectetur sunt ex dolore mollit sint aute veniam cillum dolore eiusmod et dolor incididunt irure ut laboris commodo nostrud dolore sint reprehenderit dolore amet quis velit anim.
                                 </p>
                                 <div>
-                                    <figure>
+                                    <figure class="d-none d-md-block">
                                         <img src="https://via.placeholder.com/100x100" alt="">
                                         <figcaption>Persona 1</figcaption>
                                     </figure>
-                                    <time datetime="2018-09-13">Sept 13, 2018</time>
+                                    <time class="d-none d-md-block" datetime="2018-09-13">Sept 13, 2018</time>
                                 </div>
                             </div>
                         </article>
@@ -118,32 +118,32 @@
                 </section>
             </div>
             <div class="row">
-                <section id="editorial" class="col-xl-12">
+                <section id="editorial" class="col-xl-12 col-12">
                     <header class="row">
                         <h4>Editorial</h4>
                     </header>
                     <div class="row">
-                        <article id="editorial1" class="col-xl-6">
+                        <article id="editorial1" class="col-xl-6 col-12">
                             <header id="edcabecera1">
                                 <h5>Lorem ipsum dolor sit amet</h5>
                             </header>
                             <p>
                                 Lorem ipsum et non aliqua quis ut ea in irure esse ex do nostrud irure sint elit dolore duis nostrud dolor sed magna dolor consequat ut occaecat elit dolor enim voluptate proident tempor est exercitation nulla consequat dolore proident in eiusmod aute aliquip qui incididunt tempor commodo
                             </p>
-                            <figure>
+                            <figure class="d-none d-md-block">
                                 <img src="https://via.placeholder.com/100x100" alt="">
                                 <figcaption>Persona 2</figcaption>
                             </figure>
                             <a href="">Leer</a>
                         </article>
-                        <article id="editorial2" class="col-xl-6">
+                        <article id="editorial2" class="col-xl-6 col-12">
                             <header id="edcabecera1">
                                 <h5>Lorem ipsum dolor sit amet</h5>
                             </header>
                             <p>
                                 Lorem ipsum et non aliqua quis ut ea in irure esse ex do nostrud irure sint elit dolore duis nostrud dolor sed magna dolor consequat ut occaecat elit dolor enim voluptate proident tempor est exercitation nulla consequat dolore proident in eiusmod aute aliquip qui incididunt tempor commodo
                             </p>
-                            <figure>
+                            <figure class="d-none d-md-block">
                                 <img src="https://via.placeholder.com/100x100" alt="">
                                 <figcaption>Persona 2</figcaption>
                             </figure>
@@ -158,16 +158,16 @@
                         <h4>Fotorreportajes</h4>
                     </header>
                     <div id="fotos" class="row">
-                        <figure class="col-xl-4">
-                            <img src="https://via.placeholder.com/200x200" alt="">
+                        <figure class="col-xl-4 col-6">
+                            <img src="https://via.placeholder.com/200x200" alt="" class="img-fluid">
                             <figcaption>Lorem ipsum dolor sit amet</figcaption>
                         </figure>
-                        <figure class="col-xl-4">
-                            <img src="https://via.placeholder.com/200x200" alt="">
+                        <figure class="col-xl-4 col-6">
+                            <img src="https://via.placeholder.com/200x200" alt="" class="img-fluid">
                             <figcaption>Lorem ipsum dolor sit amet</figcaption>
                         </figure>
-                        <figure class="col-xl-4">
-                            <img src="https://via.placeholder.com/200x200" alt="">
+                        <figure class="col-xl-4 col-6">
+                            <img src="https://via.placeholder.com/200x200" alt="" class="img-fluid">
                             <figcaption>Lorem ipsum dolor sit amet</figcaption>
                         </figure>
                     </div>
