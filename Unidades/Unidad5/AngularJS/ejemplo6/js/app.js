@@ -18,7 +18,6 @@ app.config(function($routeProvider) {
     controller  : 'AboutController'
   })
 
-  .otherwise({redirectTo: '/'});
 });
 
 app.controller('HomeController', function($scope) {

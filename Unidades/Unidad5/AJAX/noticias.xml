@@ -1,0 +1,29 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Sociedad</title>
+		<description><![CDATA[Decano de la prensa nacional, fundado en 1884, primer diario público del Ecuador.]]></description>
+		<link>https://www.eltelegrafo.com.ec</link>
+		<lastBuildDate>Mon, 12 Nov 2018 06:13:05 -0500</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="https://www.eltelegrafo.com.ec/contenido/categoria/6/sociedad?format=feed&amp;type=rss"/>
+		<language>es-es</language>
+		<item>
+			<titulo>Plantel Juan XXIII cumple 50 años de servicio</titulo>
+			<link>https://www.eltelegrafo.com.ec/noticias/sociedad/6/uejuanxxiii-entidadeducativa-esmeraldas-quininde</link>
+			<guid isPermaLink="true">https://www.eltelegrafo.com.ec/noticias/sociedad/6/uejuanxxiii-entidadeducativa-esmeraldas-quininde</guid>
+			<descripcion>Breve historia del principal centro educativo de la ciudad de Quinindé, provincia de Esmeraldas. Desde 1968 aplica el lema: “Dios, ciencia y trabajo”. La Unidad Educativa Fiscomisional Juan XXIII es reconocida por ser uno de los planteles más prestigiosos de la provincia de Esmeraldas.</descripcion>
+			<author>info@eltelegrafo.com.ec (Club de Periodismo)</author>
+			<category>Sociedad</category>
+			<pubDate>Sun, 11 Nov 2018 17:18:20 -0500</pubDate>
+		</item>
+		<item>
+			<titulo>“El legado más grande que un colegio puede ofrecer es la excelencia”</titulo>
+			<link>https://www.eltelegrafo.com.ec/noticias/sociedad/6/legado-colegio-monsenoreugenioarellano</link>
+			<guid isPermaLink="true">https://www.eltelegrafo.com.ec/noticias/sociedad/6/legado-colegio-monsenoreugenioarellano</guid>
+			<descripcion>Monseñor Eugenio Arellano comenzó su labor como misionero comboniano en España. Hoy es la figura más representativa de la Iglesia católica del país, pues es presidente de la Conferencia Episcopal Ecuatoriana. Llegó a Ecuador hace 42 años y es un esmeraldeño comprometido en los diferentes aspectos de la vida misionera y representante de la educación católica.</descripcion>
+			<author>info@eltelegrafo.com.ec (Club de Periodismo)</author>
+			<category>Sociedad</category>
+			<pubDate>Sun, 11 Nov 2018 17:30:17 -0500</pubDate>
+		</item>
+    </channel>
+</rss>
