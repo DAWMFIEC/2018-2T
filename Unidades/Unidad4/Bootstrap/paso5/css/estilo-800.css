@@ -1,0 +1,30 @@
+img.recientes {
+	padding-left: 3%;
+    padding-right: 4%;
+}
+
+h6.recientes {
+	font-size: 0.95rem;
+}
+
+header h4.recientes {
+	font-size: 1.2rem;
+	position: relative;
+    top: -12px;
+    left: -8px;
+    background: white;
+}
+
+time.date {
+	font-size: 0.68rem;
+	padding-left: 4%;
+}
+
+header.recientes {
+	padding: 0 3% 0 4%;
+}
+
+article.recientes {
+	padding-bottom: 7%;
+	padding-top: 7%;
+}
