@@ -4,7 +4,7 @@
 ### 2. Estructura de un documento web
 #### 2.1 Web Development Playgrounds
    
-   Algunos [sitios](https://www.slant.co/topics/1457/~web-development-playgrounds) proveen las herramientas necesarias para probar el front-end de tu aplicación web de forma rápida y accesible para tus clientes o equipo de desarrollo. Sitios como [Repl.it](https://repl.it/) o [Stackblitz](https://stackblitz.com/) pueden utilizarse como entornos más complejos para [SPA](https://www.arsys.es/blog/programacion/diseno-web/spa-unica-pagina/)
+   Algunos [sitios](https://www.slant.co/topics/1457/~web-development-playgrounds) proveen las herramientas necesarias para probar el front-end de tu aplicación web de forma rápida y accesible para tus clientes o equipo de desarrollo. Sitios como [CodeSandbox](https://codesandbox.io/), [Repl.it](https://repl.it/) o [Stackblitz](https://stackblitz.com/) pueden utilizarse como entornos más complejos para [SPA](https://www.arsys.es/blog/programacion/diseno-web/spa-unica-pagina/)
    
 ### [3. Estilo de un documento web](Unidades/Unidad3/)
 ### 4. Diseño web adaptable
