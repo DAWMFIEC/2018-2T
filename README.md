@@ -12,6 +12,9 @@ Estrategia
 3. Elige una estrategia: Progressive enhacement (Mobile first) o Graceful degradation (Desktop first)
 
 ###### 5. Programación web en el cliente
+
+Un rápido repaso de [JavaScript 6](https://learnxinyminutes.com/docs/javascript/) y [TypeScript](https://learnxinyminutes.com/docs/typescript/) con un [Playground](http://www.typescriptlang.org/play/index.html) para comparar y comprobar.
+
 ###### 6. Programación web en el servidor
 ###### 7. Servicios web
 ###### 8. Manejo del estado
