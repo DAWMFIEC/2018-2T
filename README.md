@@ -1,24 +1,23 @@
 # [Desarrollo de Aplicaciones Web 2018 - IIT](https://dawfiec.github.io/2018-2T/)
 ## Unidades
-###### 1. Introducción
-###### 2. Estructura de un documento web
-###### [3. Estilo de un documento web](Unidades/Unidad3/)
-###### 4. Diseño web adaptable
+### 1. Introducción
+### 2. Estructura de un documento web
+### [3. Estilo de un documento web](Unidades/Unidad3/)
+### 4. Diseño web adaptable
+  ####Estrategia
 
-Estrategia
+  1. Conoce las resoluciones más utilizadas con [Screen Siz.es](http://screensiz.es/) o [My Device](https://www.mydevice.io/).
+  2. Identifica tu público objetivo a través de las estadísticas actuales con [Google Analytics](https://marketingplatform.google.com/about/analytics/) o de [W3CSchools](https://www.w3schools.com/browsers/browsers_display.asp)
+  3. Elige una estrategia: Progressive enhacement (Mobile first) o Graceful degradation (Desktop first)
 
-1. Conoce las resoluciones más utilizadas con [Screen Siz.es](http://screensiz.es/) o [My Device](https://www.mydevice.io/).
-2. Identifica tu público objetivo a través de las estadísticas actuales con [Google Analytics](https://marketingplatform.google.com/about/analytics/) o de [W3CSchools](https://www.w3schools.com/browsers/browsers_display.asp)
-3. Elige una estrategia: Progressive enhacement (Mobile first) o Graceful degradation (Desktop first)
+### 5. Programación web en el cliente
 
-###### 5. Programación web en el cliente
+  Un rápido repaso de [JavaScript 6](https://learnxinyminutes.com/docs/javascript/) y [TypeScript](https://learnxinyminutes.com/docs/typescript/) con un [Playground](http://www.typescriptlang.org/play/index.html) para comparar y comprobar. 
+  En el [handbook](http://www.typescriptlang.org/docs/home.html) de TypeScript puedes encontrar las referencias completas a este superset de JavaScript.
 
-Un rápido repaso de [JavaScript 6](https://learnxinyminutes.com/docs/javascript/) y [TypeScript](https://learnxinyminutes.com/docs/typescript/) con un [Playground](http://www.typescriptlang.org/play/index.html) para comparar y comprobar. 
-En el [handbook](http://www.typescriptlang.org/docs/home.html) de TypeScript puedes encontrar las referencias completas a este superset de JavaScript.
-
-###### 6. Programación web en el servidor
-###### 7. Servicios web
-###### 8. Manejo del estado
+### 6. Programación web en el servidor
+### 7. Servicios web
+### 8. Manejo del estado
 
 ## Indicaciones generales
 
