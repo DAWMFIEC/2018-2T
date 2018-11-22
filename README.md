@@ -13,7 +13,8 @@ Estrategia
 
 ###### 5. Programación web en el cliente
 
-Un rápido repaso de [JavaScript 6](https://learnxinyminutes.com/docs/javascript/) y [TypeScript](https://learnxinyminutes.com/docs/typescript/) con un [Playground](http://www.typescriptlang.org/play/index.html) para comparar y comprobar.
+Un rápido repaso de [JavaScript 6](https://learnxinyminutes.com/docs/javascript/) y [TypeScript](https://learnxinyminutes.com/docs/typescript/) con un [Playground](http://www.typescriptlang.org/play/index.html) para comparar y comprobar. 
+En el [handbook](http://www.typescriptlang.org/docs/home.html) de TypeScript puedes encontrar las referencias completas a este superset de JavaScript.
 
 ###### 6. Programación web en el servidor
 ###### 7. Servicios web
