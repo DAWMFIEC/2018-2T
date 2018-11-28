@@ -1,0 +1,27 @@
+ul {
+  list-style-type: none;
+}
+
+ul#networks li {
+	background: url('../img/sn.png') center center no-repeat;
+	background-size: cover;
+ 	height: 60px;
+    width: 33px; 
+}
+
+ul#networks li:nth-child(1) { 
+	background-position: left top;
+}
+
+ul#networks li:nth-child(2) { 
+	background-position: center center;
+}
+
+ul#networks li:nth-child(3) { 
+	background-position: right top;
+}
+
+#navbar {
+	background: #033076!important;
+	
+}
