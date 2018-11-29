@@ -35,6 +35,11 @@ ul#networks li:nth-child(3) {
 
 #noticias-recientes h6 {
 	font-size: 0.9rem;
+	padding: 0px 10px 0px 0px;
+}
+
+#noticias-recientes img {
+	padding: 0px;
 }
 
 /* Style */
