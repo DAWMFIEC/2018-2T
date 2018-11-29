@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
+
+h1,h4 {
+	font-family: 'Fugaz One', cursive;
+	color: #033076;
+}
+
 ul {
   list-style-type: none;
 }
@@ -23,5 +30,26 @@ ul#networks li:nth-child(3) {
 
 #navbar {
 	background: #033076!important;
+	color: white!important;
+}
+
+#noticias-recientes h6 {
+	font-size: 0.9rem;
+}
+
+.bg-elnoticion {
+	background-color: #033076!important;
+}
+
+.btn-outline-elnoticion {
+	color: #033076!important;
+    background-color: transparent;
+    background-image: none;
+    border-color: #033076!important;
+}
+
+.btn-outline-elnoticion:hover {
+	background-color: #033076!important;
+	color: white!important;
 	
 }

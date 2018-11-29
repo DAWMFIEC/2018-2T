@@ -13,10 +13,11 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
     <link href="css/blog.css" rel="stylesheet">
     <link href="css/elnoticion.css" rel="stylesheet">
+    <link href="css/marquee.css" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
-      <header class="blog-header">
+    <div class="container mb-4">
+      <header class="blog-header d-none d-lg-block">
         <div class="row flex-nowrap justify-content-between align-items-center">
           <div class="col-4 pt-1">
             <time>Miércoles, 28 de Septiembre de 2018</time>
@@ -30,173 +31,195 @@
             <form class="form-inline">
               <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
             </form>
-          </a>
+          </div>
         </div>
-      </div>
-    </header>
-    <div  class="nav-scroller py-1 mb-2">
-      <nav id="navbar" class="navbar d-flex justify-content-between">
-        <a class="text-muted" href="#">Noticias</a>
-        <a class=" text-muted" href="#">Deportes</a>
-        <a class=" text-muted" href="#">Espectáculos</a>
-        <a class=" text-muted" href="#">Videos</a>
-        <a class=" text-muted" href="#">Internacionales</a>
+      </header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-elnoticion py-1 mt-2 mb-2 sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- d-flex  -->
+        <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Noticias <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Deportes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Espectáculos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Internacionales</a>
+            </li>
+          </ul>
+        </div>
       </nav>
-    </div>
-    <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
-      <div class="col-md-6 px-0">
-        <h1 class="display-4 font-italic">Title of a longer featured blog post</h1>
-        <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.</p>
-        <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+      <h1 class="display-4 text-center">El Notición</h1>
+      <div class="onoffswitch3 d-none d-lg-block">
+        <input type="checkbox" name="onoffswitch3" class="onoffswitch3-checkbox" id="myonoffswitch3" checked>
+        <label class="onoffswitch3-label" for="myonoffswitch3">
+          <span class="onoffswitch3-inner">
+            <span class="onoffswitch3-active">
+              <marquee class="scroll-text">Avengers: Infinity War's Iron Spider Suit May Use Bleeding Edge Tech  <span class="glyphicon glyphicon-forward"></span> Russo brothers ask for fans not to spoil Avengers: Infinity War <span class="glyphicon glyphicon-forward"></span>  Bucky's Arm Miraculously Regenerates On Avengers: Infinity War Poster</marquee>
+              <span class="onoffswitch3-switch">Al minuto</span>
+            </span>
+            <span class="onoffswitch3-inactive"><span class="onoffswitch3-switch">Al minuto</span></span>
+          </span>
+        </label>
       </div>
-    </div>
-    <div class="row mb-2">
-      <div class="col-md-6">
-        <div class="card flex-md-row mb-4 shadow-sm h-md-250">
-          <div class="card-body d-flex flex-column align-items-start">
-            <strong class="d-inline-block mb-2 text-primary">World</strong>
-            <h3 class="mb-0">
-            <a class="text-dark" href="#">Featured post</a>
-            </h3>
-            <div class="mb-1 text-muted">Nov 12</div>
-            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            <a href="#">Continue reading</a>
+      <main role="main" class="container mb-2">
+        <div class="row">
+          <div class="card col-md-8 blog-main order-12 mx-auto">
+            <div class="card-body row shadow-sm">
+              <div class="col-12">
+                <img id="foto-noticia" class="card-img-top" src="https://goo.gl/dAx3P1" alt="Card image cap">
+              </div>
+              <h1 id="titulo-noticia" class="card-title col-12 mt-3"> Árbol del Malecón, con una APP que cumple deseos </h1>
+              <div class="col-12">
+                <div class="row">
+                  <p id="descripcion-noticia" class="card-text col-10 text-justify">
+                    Guayaquil cuenta con una nueva atracción en el Malecón Simón Bolívar. Anoche fue encendido el árbol navideño ubicado junto al Hemiciclo de la Rotonda, para lo cual hubo conteo regresivo.
+                    Cerca de las 18:50 del miércoles ya brillaba la estructura de 20 metros de longitud, adornado con bolas azules, rojas, violetas, verdes y demás colores; emocionando a decenas de familias que llegaron al sitio turístico para disfrutar del espectáculo.
+                    Una atracción adicional es la aplicación móvil “Árbol de los deseos”, donde los usuarios con apuntar con su teléfono celular a cualquier punto de la estructura obtendrán mensajes o deseos navideños para compartir con parientes y amigos a través de las redes.
+                    Los usuarios tendrán acceso a través de las plataformas Google Play y App Store y ahí descargar gratis la APP navideña, que este año incorpora como novedad la Fundación Malecón 2000.
+                    El árbol navideño permanece encendido entre las 19:00 y 23:59. El público podrá apreciarlo hasta el 6 de enero del 2019, en Malecón Simón Bolívar y 9 de Octubre.
+                    Está ubicado en la zona de juegos infantiles denominada Aventura Navidad, donde se han implementado diferentes juegos como el tren navideño, el Salta-Salta, la tarabita y la Estación de Papá Noel.
+                  </p>
+                  <figure class="figure col-2">
+                    <img id="foto-autor" class="img-fluid rounded  float-right img-thumbnail" src="https://goo.gl/MdhEgj" alt="Card image cap">
+                    <figcaption id="nombre-autor" class="figure-caption text-center">
+                    Persona 1
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+              <h6 class="card-subtitle col-12 mt-2 text-muted text-right"><time id="fecha-noticia">29 de noviembre, 2018 - 00h08</time></h6>
+            </div>
           </div>
-          <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card flex-md-row mb-4 shadow-sm h-md-250">
-          <div class="card-body d-flex flex-column align-items-start">
-            <strong class="d-inline-block mb-2 text-success">Design</strong>
-            <h3 class="mb-0">
-            <a class="text-dark" href="#">Post title</a>
-            </h3>
-            <div class="mb-1 text-muted">Nov 11</div>
-            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            <a href="#">Continue reading</a>
+          <aside id="noticias-recientes" class="col-md-4 blog-sidebar order-1">
+            <div class="p-3 mb-3 shadow-sm rounded border">
+              <h4 class="">Noticias Recientes</h4>
+              <div class="row">
+                <div class="col-12 mt-2">
+                  <h6 class="col-7 font-italic float-left ">Autoridades analizan políticas de seguridad en Guayaquil</h6>
+                  <img id="foto-autor" class="col-5 img-fluid float-right" src="https://via.placeholder.com/150" alt="Card image cap">
+                  <h6 class="col-12 mt-2 pb-4 text-muted text-left float-right border-bottom"><time id="fecha-noticia">29 de noviembre, 2018</time></h6>
+                </div>
+                <div class="col-12 mt-2">
+                  <h6 class="col-7 font-italic float-left ">México ya no pedirá visa a turistas ecuatorianos</h6>
+                  <img id="foto-autor" class="col-5 img-fluid float-right" src="https://via.placeholder.com/150" alt="Card image cap">
+                  <h6 class="col-12 mt-2 pb-4 text-muted text-left float-right border-bottom"><time id="fecha-noticia">29 de noviembre, 2018</time></h6>
+                </div>
+                <div class="col-12 mt-2">
+                  <h6 class="col-7 font-italic float-left ">Clientes podrán identificar origen de llamada comercial y decidir si la contestan</h6>
+                  <img id="foto-autor" class="col-5 img-fluid float-right" src="https://via.placeholder.com/150" alt="Card image cap">
+                  <h6 class="col-12 mt-2 pb-4 text-muted text-left float-right border-bottom"><time id="fecha-noticia">29 de noviembre, 2018</time></h6>
+                </div>
+                <div class="col-12 mt-2">
+                  <h6 class="col-7 font-italic float-left ">Dispositivos médicos se implantan con poco control e información</h6>
+                  <img id="foto-autor" class="col-5 img-fluid float-right" src="https://via.placeholder.com/150" alt="Card image cap">
+                  <h6 class="col-12 mt-2 pb-4 text-muted text-left float-right border-bottom"><time id="fecha-noticia">29 de noviembre, 2018</time></h6>
+                </div>
+                <div class="col-12 mt-2">
+                  <h6 class="col-7 font-italic float-left ">El Cuarteto de Nos está de regreso en Guayaquil</h6>
+                  <img id="foto-autor" class="col-5 img-fluid float-right" src="https://via.placeholder.com/150" alt="Card image cap">
+                  <h6 class="col-12 mt-2 pb-4 text-muted text-left float-right"><time id="fecha-noticia">29 de noviembre, 2018</time></h6>
+                </div>
+              </div>
+            </div>
+            </aside><!-- /.blog-sidebar -->
+            </div><!-- /.row -->
+            </main><!-- /.container -->
+            <div class="row mb-2 p-3 mt-4 rounded border-top">
+              <h4 class="col-md-12">Editorial</h4>
+              <div class="col-md-6">
+                <div class="card flex-md-row shadow-sm h-md-250">
+                  <div class="card-body d-flex flex-column align-items-start">
+                    <h3 class="mb-0"><a class="text-dark" href="#">Implantes médicos dañinos</a></h3>
+                    <p class="card-text mb-auto mt-3">En los dos últimos años, 522 problemas con implantes de dispositivos médicos se registran en Ecuador, según la Agencia Nacional de Regulación, Control y Vigilancia Sanitaria (Arcsa).</p>
+                    <button type="button" class="btn btn-outline-elnoticion">Leer</button>
+                  </div>
+                  <div class="card-body d-flex flex-column align-items-start">
+                    <figure class="figure">
+                      <img id="foto-autor" class="img-fluid rounded  float-right img-thumbnail" src="https://goo.gl/MdhEgj" alt="Card image cap">
+                      <figcaption id="nombre-autor" class="figure-caption text-center">
+                      Persona 2
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <!-- <div class="card-img-right flex-auto d-none d-lg-block">
+                    <img class="" data-src="holder.js/200x300?theme=thumb" alt="Card image cap">
+                  </div> -->
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card flex-md-row shadow-sm h-md-250">
+                  <div class="card-body d-flex flex-column align-items-start">
+                    <h3 class="mb-0"><a class="text-dark" href="#">Taxistas, usuarios y formalidad</a></h3>
+                    <p class="card-text mb-auto mt-3">Las protestas protagonizadas la semana pasada por taxistas formales e informales en Guayaquil, donde es evidente que se ha multiplicado la oferta de esa modalidad de transporte, dan cuenta de que esta situación se está tornando problemática.</p>
+                    <button type="button" class="btn btn-outline-elnoticion">Leer</button>
+                  </div>
+                  <div class="card-body d-flex flex-column align-items-start">
+                    <figure class="figure">
+                      <img id="foto-autor" class="img-fluid rounded  float-right img-thumbnail" src="https://goo.gl/MdhEgj" alt="Card image cap">
+                      <figcaption id="nombre-autor" class="figure-caption text-center">
+                      Persona 3
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <!-- <div class="card-img-right flex-auto d-none d-lg-block">
+                    <img class="" data-src="holder.js/200x300?theme=thumb" alt="Card image cap">
+                  </div> -->
+                </div>
+              </div>
+            </div>
+            <div class="row mb-2 p-3 mt-3 rounded border-top">
+              <h4 class="col-md-12">Fotorreportajes</h4>
+              <div class="col-md-4">
+                <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                  <div class="card-body d-flex flex-column align-items-start">
+                    <img id="foto-autor" class="img-fluid rounded float-right" src="https://via.placeholder.com/300x260.png" alt="Card image cap">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                  <div class="card-body d-flex flex-column align-items-start">
+                    <img id="foto-autor" class="img-fluid rounded float-right" src="https://via.placeholder.com/300x260.png" alt="Card image cap">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                  <div class="card-body d-flex flex-column align-items-start">
+                    <img id="foto-autor" class="img-fluid rounded float-right" src="https://via.placeholder.com/300x260.png" alt="Card image cap">
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
-        </div>
-      </div>
-    </div>
-  </div>
-  <main role="main" class="container">
-    <div class="row">
-      <div class="col-md-8 blog-main">
-        <h3 class="pb-3 mb-4 font-italic border-bottom">
-        From the Firehose
-        </h3>
-        <div class="blog-post">
-          <h2 class="blog-post-title">Sample blog post</h2>
-          <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
-          <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
-          <hr>
-          <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-          <blockquote>
-            <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          </blockquote>
-          <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-          <h2>Heading</h2>
-          <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-          <h3>Sub-heading</h3>
-          <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-        <pre><code>Example code block</code></pre>
-        <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-        <h3>Sub-heading</h3>
-        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <ul>
-          <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-          <li>Donec id elit non mi porta gravida at eget metus.</li>
-          <li>Nulla vitae elit libero, a pharetra augue.</li>
-        </ul>
-        <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-        <ol>
-          <li>Vestibulum id ligula porta felis euismod semper.</li>
-          <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-          <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-        </ol>
-        <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-        </div><!-- /.blog-post -->
-        <div class="blog-post">
-          <h2 class="blog-post-title">Another blog post</h2>
-          <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
-          <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-          <blockquote>
-            <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          </blockquote>
-          <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-          <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-          </div><!-- /.blog-post -->
-          <div class="blog-post">
-            <h2 class="blog-post-title">New feature</h2>
-            <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
-            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <ul>
-              <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-              <li>Donec id elit non mi porta gravida at eget metus.</li>
-              <li>Nulla vitae elit libero, a pharetra augue.</li>
-            </ul>
-            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-            <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-            </div><!-- /.blog-post -->
-            <nav class="blog-pagination">
-              <a class="btn btn-outline-primary" href="#">Older</a>
-              <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
-            </nav>
-            </div><!-- /.blog-main -->
-            <aside class="col-md-4 blog-sidebar">
-              <div class="p-3 mb-3 bg-light rounded">
-                <h4 class="font-italic">About</h4>
-                <p class="mb-0">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-              </div>
-              <div class="p-3">
-                <h4 class="font-italic">Archives</h4>
-                <ol class="list-unstyled mb-0">
-                  <li><a href="#">March 2014</a></li>
-                  <li><a href="#">February 2014</a></li>
-                  <li><a href="#">January 2014</a></li>
-                  <li><a href="#">December 2013</a></li>
-                  <li><a href="#">November 2013</a></li>
-                  <li><a href="#">October 2013</a></li>
-                  <li><a href="#">September 2013</a></li>
-                  <li><a href="#">August 2013</a></li>
-                  <li><a href="#">July 2013</a></li>
-                  <li><a href="#">June 2013</a></li>
-                  <li><a href="#">May 2013</a></li>
-                  <li><a href="#">April 2013</a></li>
-                </ol>
-              </div>
-              <div class="p-3">
-                <h4 class="font-italic">Elsewhere</h4>
-                <ol class="list-unstyled">
-                  <li><a href="#">GitHub</a></li>
-                  <li><a href="#">Twitter</a></li>
-                  <li><a href="#">Facebook</a></li>
-                </ol>
-              </div>
-              </aside><!-- /.blog-sidebar -->
-              </div><!-- /.row -->
-              </main><!-- /.container -->
-              <footer class="blog-footer">
-                <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-                <p>
-                  <a href="#">Back to top</a>
-                </p>
-              </footer>
-              <!-- Bootstrap core JavaScript
-              ================================================== -->
-              <!-- Placed at the end of the document so the pages load faster -->
-              <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-              <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-              <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-              <script src="js/holder.js"></script>
-              <script>
-              Holder.addTheme('thumb', {
-              bg: '#55595c',
-              fg: '#eceeef',
-              text: 'Thumbnail'
-              });
-              </script>
-            </body>
-          </html>
+          <footer class="blog-footer fixed-bottom text-white bg-elnoticion">
+            © 2018 El Notición S.A. Todos los derechos reservados.
+          </footer>
+          <!-- Bootstrap core JavaScript
+          ================================================== -->
+          <!-- Placed at the end of the document so the pages load faster -->
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+          <script src="js/holder.js"></script>
+          <script>
+          Holder.addTheme('thumb', {
+          bg: '#55595c',
+          fg: '#eceeef',
+          text: 'Thumbnail'
+          });
+          </script>
+          
+        </body>
+      </html>
