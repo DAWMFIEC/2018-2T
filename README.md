@@ -23,6 +23,9 @@
 ### 7. Servicios web
 ### 8. Manejo del estado
 
+## El Notición
+[Enlace al sitio](Sitios/ElNoticion/adaptive/index.html)
+
 ## Indicaciones generales
 
 La guía general con los contenidos de la materia puedes encontrarla en la carpeta [Diapositivas](Diapositivas).
