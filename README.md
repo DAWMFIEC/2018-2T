@@ -24,7 +24,7 @@
 ### 8. Manejo del estado
 
 ## El Notición
-[Enlace al sitio](Sitios/ElNoticion/adaptive/index.html)
+[Enlace al sitio](Sitios/ElNoticion/adaptive)
 
 ## Indicaciones generales
 
