@@ -37,6 +37,8 @@ ul#networks li:nth-child(3) {
 	font-size: 0.9rem;
 }
 
+/* Style */
+
 .bg-elnoticion {
 	background-color: #033076!important;
 }
@@ -51,5 +53,26 @@ ul#networks li:nth-child(3) {
 .btn-outline-elnoticion:hover {
 	background-color: #033076!important;
 	color: white!important;
-	
+
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+
+@media(max-width: 576px) {
+	.title-xs {
+		font-size: 1.5rem!important;
+	}
+
+	#descripcion-noticia {
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 4;
+		-webkit-box-orient: vertical;
+	}
 }
