@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>SuperChat</title>
+      <!-- Bootstrap core CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <!-- Custom styles for this template -->
+      <link href="css/jumbotron.css" rel="stylesheet">
+      <script src="js/jquery.min.js" type="text/javascript"></script>
+      <script src="js/funcionalidad.js" type="text/javascript"></script>
+   </head>
+   <body>
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="#">Super Chat</a>
+            </div>
+         </div>
+      </nav>
+      <div class="container">
+         <!-- Example row of columns -->
+         <div class="row">
+            <div class="col-md-4">
+               <h2>Conexión</h2>
+               <p>Usuario: <input id="usuario" type="text"/>
+               <a class="btn btn-default btn-sm btn-primary" href="#" role="button" id="conectar" href="#">Conectar</a></p>
+               <p id="estado" class="col-md-12"></p>
+               <p>
+                  <textarea class="form-control" id="texto" rows="5"></textarea>
+                  <a class="btn btn-default" href="#" role="button" id="enviar" href="#">Enviar</a>
+               </p>
+            </div>
+            <div class="col-md-8">
+               <h2>Mensajes</h2>
+               <p id="mensajes"></p>
+               <div id="sse"></div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
