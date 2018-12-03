@@ -1,0 +1,49 @@
+time.date {
+	font-size: 0.68rem;
+	padding-left: 4%;
+}
+
+h6.recientes {
+	font-size: 0.95rem;
+	font-weight: bolder;
+}
+
+article.recientes > div {
+	/*border-bottom-style: dashed!important;*/
+}
+
+
+aside > header > h4 {
+	font-weight: bolder;
+	position: relative;
+	top: -15px;
+	left: -28px;
+	background-color: white;
+	font-family: 'Fugaz One', cursive;
+	color:#033076;
+}
+
+@media (max-width: 379px){
+  h6.recientes {
+	font-size: 0.9rem;
+	font-weight: bolder;
+	text-align: justify;
+  }
+
+  aside#recientes {
+		border: 1px 0px solid #dee2e6!important;	
+  }
+}
+
+
+@media (min-width: 380px) {
+	aside#recientes {
+		border-radius: .25rem!important;
+		border: 1px solid #dee2e6!important;	
+	}
+
+	.news {
+		border-bottom: 1px solid #dee2e6!important;
+	}
+}
+

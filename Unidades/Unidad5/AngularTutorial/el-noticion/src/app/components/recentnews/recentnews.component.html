@@ -1,0 +1,105 @@
+<aside id="recientes" class="row">
+	<header class="col-xl-12 recientes d-none d-md-block">
+		<h4 class="text-center recientes mt-1 mb-1">Noticias Recientes</h4>
+	</header>
+	<!-- {{noticias.length}}{{idx}} -->
+	<div *ngFor="let noticia of noticias; let idx = index;" class="col-xl-12 col-3 mb-4">
+		<article class="row recientes">
+			<div class="offset-1 col-xl-10 pb-2 news">
+				<div class="row">
+					<header class="col-xl-7 col-12 text-left recientes">
+						<!-- [routerLink]="['/noticia', idx]" -->
+						<!-- (click)="verNoticia(idx)" -->
+						<!-- [routerLink]="['/noticia', idx]" -->
+						<!-- <a>{{noticia.titulo}}</a> -->
+						<!-- [mainnew]="mainnew" [idx]="idx"  -->
+						<h6 class="recientes">
+							<app-recentnew [idx]="idx"></app-recentnew>
+						</h6>
+					</header>
+					<div class="col-xl-5 col-12 ">
+						<img class="img-thumbnail recientes" [src]="noticia.foto" alt="placeholder" />	
+					</div>
+					<time class="col-xl-12 date text-right d-none d-md-block" datetime="2018-09-13">{{noticia.fecha}}</time>
+				</div>
+			</div>
+		</article>
+	</div>
+	<!-- <div class="col-xl-12 col-3 mb-4">
+		<article class="row recientes">
+			<div class="offset-1 col-xl-10 pb-2 news">
+				<div class="row">
+					<header class="col-xl-7 col-12 text-left recientes">
+						<h6 class="recientes">Lorem ipsum dolor sit amet</h6>
+					</header>
+					<div class="col-xl-5 col-12 ">
+						<img class="img-thumbnail recientes" src="https://via.placeholder.com/50x50" alt="placeholder" />	
+					</div>
+					<time class="col-xl-6 date text-center d-none d-md-block" datetime="2018-09-13">Sept 13, 2018</time>
+				</div>
+			</div>
+		</article>
+	</div>
+	<div class="col-xl-12 col-3 mb-4">
+		<article class="row recientes">
+			<div class="offset-1 col-xl-10 pb-2 news">
+				<div class="row">
+					<header class="col-xl-7 col-12 text-left recientes">
+						<h6 class="recientes">Lorem ipsum dolor sit amet</h6>
+					</header>
+					<div class="col-xl-5 col-12 ">
+						<img class="img-thumbnail recientes" src="https://via.placeholder.com/50x50" alt="placeholder" />	
+					</div>
+					<time class="col-xl-6 date text-center d-none d-md-block" datetime="2018-09-13">Sept 13, 2018</time>
+				</div>
+			</div>
+		</article>
+	</div>
+	<div class="col-xl-12 col-3 mb-4">
+		<article class="row recientes">
+			<div class="offset-1 col-xl-10 pb-2 news">
+				<div class="row">
+					<header class="col-xl-7 col-12 text-left recientes">
+						<h6 class="recientes">Lorem ipsum dolor sit amet</h6>
+					</header>
+					<div class="col-xl-5 col-12 ">
+						<img class="img-thumbnail recientes" src="https://via.placeholder.com/50x50" alt="placeholder" />	
+					</div>
+					<time class="col-xl-6 date text-center d-none d-md-block" datetime="2018-09-13">Sept 13, 2018</time>
+				</div>
+			</div>
+		</article>
+	</div>
+	
+	<div class="col-xl-12 mb-4 d-none d-md-block">
+		<article class="row recientes">
+			<div class="offset-1 col-10 pb-2 news">
+				<div class="row pb-2">
+					<header class="col-7 text-left recientes">
+						<h6 class="recientes">Lorem ipsum dolor sit amet</h6>
+					</header>
+					<div class="col-xl-5 col-12 ">
+						<img class="img-thumbnail recientes" src="https://via.placeholder.com/50x50" alt="placeholder" />	
+					</div>
+					<time class="col-6 date text-center" datetime="2018-09-13">Sept 13, 2018</time>
+				</div>
+			</div>
+		</article>
+	</div>
+	<div class="col-xl-12 mb-4 d-none d-md-block">
+		<article class="row recientes">
+			<div class="offset-1 col-10">
+				<div class="row">
+					<header class="col-7 text-left recientes">
+						<h6 class="recientes">Lorem ipsum dolor sit amet</h6>
+					</header>
+					<div class="col-xl-5 col-12 ">
+						<img class="img-thumbnail recientes" src="https://via.placeholder.com/50x50" alt="placeholder" />	
+					</div>
+					<time class="col-6 date text-center" datetime="2018-09-13">Sept 13, 2018</time>
+				</div>
+			</div>
+		</article>
+	</div> -->
+
+</aside>

@@ -1,0 +1,26 @@
+<section id="principal" class="row ml-4">
+    <div id="noticia1" class="col-xl-12">
+        <article class="row">
+            <div class="col-xl-12 text-center main-bg pt-2 pb-2">
+                <img [src]="noticia.foto" alt="placeholder" class="img-thumbnail foto-principal" />
+            </div>
+            <div id="texto1" class="pt-2 pl-4 pr-4 col-xl-12">
+                <header class="row">
+                    <h3 class="col-xl-12">{{noticia.titulo}}</h3>
+                </header>
+                <div class="row">
+                    <p class="col-xl-10 text-justify">
+                        {{noticia.descripcion}}
+                    </p>
+                    <div class="col-xl-2">
+                        <figure class="d-none d-md-block">
+                            <img src="https://via.placeholder.com/100x100" alt="" class="img-thumbnail">
+                            <figcaption class="text-right mt-2 font-weight-bold">{{noticia.autor}}</figcaption>
+                        </figure>
+                        <time class="d-none d-md-block text-right mt-2 font-italic"><small>{{noticia.fecha}}</small></time>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+</section>

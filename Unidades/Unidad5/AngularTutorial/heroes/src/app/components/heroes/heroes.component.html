@@ -1,0 +1,14 @@
+<h1>Héroes <small>DC y Marvel</small></h1>
+<div class="card-columns">
+	<div class="card" *ngFor="let heroe of heroes">
+		<img class="card-img-top" [src]="heroe.img" [alt]="heroe.nombre">
+		<div class="card-body">
+			<h5 class="card-title">{{heroe.nombre}}</h5>
+			<p class="card-text">{{heroe.bio}}</p>
+			<p class="card-text"><small class="text-muted">Aparece desde: {{heroe.aparicion}}</small></p>
+			<button type="button" class="btn btn-block btn-primary">
+				Ver más...
+			</button>
+		</div>
+	</div>
+</div>

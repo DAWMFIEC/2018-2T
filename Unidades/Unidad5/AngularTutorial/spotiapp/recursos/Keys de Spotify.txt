@@ -1,0 +1,11 @@
+
+Por favor, usen esto sólo en países donde no
+puedan crear cuentas gratuitas de Spotify.
+
+Esto lo hago porque muchos alumnos de Venezuela
+me lo han pedido.
+
+
+client_ID: d6b55734aa3f4b49af89ae8023b6c69e
+
+client_secret: 4659ca881ead4eed81c45197f071db34

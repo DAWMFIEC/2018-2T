@@ -1,0 +1,25 @@
+section > header > h4 {
+	font-weight: bolder;
+	background-color: white;
+	font-family: 'Fugaz One', cursive;
+	color:#033076;
+}
+
+.edcabecera1  h5 {
+	font-family: 'Fugaz One';
+	color:#033076;
+}
+
+@media (min-width: 380px ) {
+	section > header > h4 {
+		position: relative;
+		top: -10px;
+		left: -1px;
+	}
+}
+
+@media (max-width: 380px ) {
+	section > header > h4 {
+		font-size: 1.2rem;
+		}
+	}

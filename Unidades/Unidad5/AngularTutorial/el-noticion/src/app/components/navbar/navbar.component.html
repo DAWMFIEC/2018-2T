@@ -1,0 +1,12 @@
+<div class="row sticky-top mb-2">
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark-noticion col-xl-12">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuPrincipal">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		<div id="menuPrincipal" class="collapse navbar-collapse">
+			<ul class="list-inline navbar-nav mx-auto">
+				<li *ngFor="let enlace of enlaces" class="list-inline-item nav-item"><a [routerLink]="['/'+enlace.ruta]" class="nav-link">{{enlace.nombre}}</a></li>				
+			</ul>
+		</div>
+	</nav>
+</div>

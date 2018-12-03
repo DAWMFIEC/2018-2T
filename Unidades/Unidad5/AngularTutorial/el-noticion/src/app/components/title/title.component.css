@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
+
+#titulo {
+	font-size: 4.3rem;
+	font-weight: bolder;
+	font-family: 'Fugaz One', cursive;
+	color:#033076;
+}
+
+@media (max-width: 380px){
+  #titulo {
+    font-size: 3rem;
+  }
+}
+
